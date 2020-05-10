@@ -1,0 +1,22 @@
+% latex macros file
+\NeedsTeXFormat{LaTeX2e}
+% \usepackage{amsmath} % needed to declare argmax and argmin
+\ProvidesPackage{dy_macros}
+
+\newcommand{\gr}[0]{\nabla}
+\newcommand{\abs}[1]{\left \lvert #1 \right \rvert}
+\newcommand{\nm}[1]{\left \lVert#1 \right \rVert}
+\newcommand{\ip}[1]{\left \langle #1 \right \rangle}
+\newcommand{\mtx}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+\renewcommand{\vec}[1]{\textbf{#1}}
+\newcommand{\set}[1]{\mathcal{#1}}
+\newcommand{\RR}[0]{\mathbb{R}}
+\newcommand{\ZZ}[0]{\mathbb{Z}}
+\newcommand{\QQ}[0]{\mathbb{Q}}
+% \DeclareMathOperator*{\amax}{arg\,max} % this is the form with a small space
+\DeclareMathOperator*{\amax}{argmax}
+\DeclareMathOperator*{\amin}{argmin}
+
+\newcommand{\tb}[1]{\textbf{#1}}
+\newcommand{\ti}[1]{\textit{#1}}
+
